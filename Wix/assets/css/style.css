@@ -1,0 +1,171 @@
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+  }
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+  } 
+  .col-3{
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%
+  }
+
+  .col-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%
+}
+
+.col-5 {
+  -ms-flex: 0 0 41.666667%;
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%
+}
+
+.col-6 {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%
+}
+
+.col-7 {
+  -ms-flex: 0 0 58.333333%;
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%
+}
+
+.col-8 {
+  -ms-flex: 0 0 66.666667%;
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%
+}
+
+.col-9 {
+  -ms-flex: 0 0 75%;
+  flex: 0 0 75%;
+  max-width: 75%
+}
+
+.col-10 {
+  -ms-flex: 0 0 83.333333%;
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%
+}
+
+.col-11 {
+  -ms-flex: 0 0 91.666667%;
+  flex: 0 0 91.666667%;
+  max-width: 91.666667%
+}
+
+.col-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%
+}
+
+/*
+Common CSS
+*/
+
+body{
+	font-size: 15px;
+	font-weight: 400;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+	max-height: 100%;
+	height: auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: 700; 
+	margin-bottom: 15px;
+}
+
+a{
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+p{
+	font-weight: 400;
+	margin-bottom: 15px;
+	line-height: 1.5em;
+}
+
+
+#header{
+    background: url(../Image/images.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+
+/* 
+    Logo Section
+*/
+
+.logo a {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-top: 30px;
+    text-transform: uppercase;
+    margin-left: 40px;
+
+}
+
+/* 
+    Main Menu Section 
+*/
+
+#main_menu ul#nav{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+}
+
+#main_menu ul#nav li{
+	display: inline-block;
+	margin-left: 5px;
+}
+
+#main_menu ul#nav li a{
+	display: block;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 30px 25px 10px;
+}
+
+.start_now{
+    margin-top: 30px;
+}
+.start_now a{
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid#fff;
+    padding: 10px;
+    border-radius: 20px;
+}
+
