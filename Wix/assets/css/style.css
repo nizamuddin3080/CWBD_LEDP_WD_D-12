@@ -291,3 +291,21 @@ p{
   width: 300px;
   border: 1px solid #000;
  }
+.logo_button{
+  margin: 50px 0;
+}
+ 
+
+ .logo_button a{
+   display: table;
+   margin: 0 auto;
+   padding: 20px;
+   font-size: 20px;
+   color: #fff;
+   border: 1px solid #fff;
+   border-radius: 30px;
+ }
+ .logo_button a:hover{
+   background: #fff;
+   color: #000;
+ }
