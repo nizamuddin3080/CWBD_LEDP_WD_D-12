@@ -169,3 +169,83 @@ p{
     border-radius: 20px;
 }
 
+.intro__inner h2.intro__title{
+    text-align: center;
+    margin-top: 300px;
+    font-size: 70px;
+    color: #fff;
+}
+
+.intro__inner a.btn{
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 20px;
+    display: table;
+    margin: 60px auto;
+    border-radius: 30px;
+}
+
+.intro__inner a.btn:hover{
+    background: #fff;
+    color: #000;
+}
+
+/* 
+
+*/
+
+.creating_logo{
+  margin: 90px 0 0 50px;
+}
+
+.creating_logo h2{
+  font-size: 45px;
+  line-height: 1.2em;
+  text-align: left;
+}
+
+.creating_logo a{
+  padding: 20px;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 30px;
+  margin: 31px 130px 0 150px;
+  display: table;
+
+}
+
+.custom_logo{
+  margin: 90px 25px 0 0;
+}
+.custom_logo h3{
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+.custom_logo p{
+  font-size: 20px;
+}
+
+.customize{
+  margin: 90px 25px 0 0;
+}
+
+.customize h3{
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+}
+.customize p{
+  font-size: 20px;
+}
+
+/* 
+ */
+
+ .image_section img{
+   height: 80vh;
+   width: 100%;
+ }
