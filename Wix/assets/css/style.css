@@ -159,7 +159,7 @@ p{
 	font-weight: 700;
 	text-transform: uppercase;
 	text-decoration: none;
-	margin: 30px 25px 10px;
+	margin: 30px 20px 10px;
 }
 
 .start_now{
@@ -175,9 +175,10 @@ p{
 
 .intro__inner h2.intro__title{
     text-align: center;
-    margin-top: 300px;
-    font-size: 70px;
+    margin-top: 150px;
+    font-size: 100px;
     color: #fff;
+    line-height: 1.2em;
 }
 
 .intro__inner a.btn{
@@ -202,7 +203,7 @@ p{
 */
 
 .creating_logo{
-  margin: 90px 0 0 50px;
+  margin: 90px 0 0 0px;
 }
 
 .creating_logo h2{
@@ -222,7 +223,7 @@ p{
 }
 
 .custom_logo{
-  margin: 90px 25px 0 0;
+  margin: 90px 0 0 0;
 }
 .custom_logo h3{
   font-size: 25px;
@@ -259,11 +260,34 @@ p{
  }
 
  .brand_title{
-
+  margin-left: 50px;
+  margin-top: 150px;
  }
  .brand_title h3{
-   
+  margin-left: 40px;
+  font-size: 50px;
  }
  .brand_title p{
-   
+  margin-left: 40px;
+  font-size: 25px;
+  font-weight: 700;
+ }
+ .brand_name{
+
+ }
+ .brand_name h6{
+  margin-left: 40px;
+  font-size: 25px;
+ }
+ .brand_name h4{
+  margin-left: 38px;
+  font-size: 25px;
+}
+ .brand_name p{
+  margin-left: 40px;
+  font-size: 20px;
+ }
+ .brand_name hr{
+  width: 300px;
+  border: 1px solid #000;
  }
