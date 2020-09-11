@@ -214,11 +214,18 @@ p{
 
 .creating_logo a{
   padding: 20px;
+  font-size: 20px;
   color: #000;
   border: 1px solid #000;
   border-radius: 30px;
   margin: 31px 130px 0 150px;
   display: table;
+
+}
+
+.creating_logo a:hover{
+  color: #fff;
+  background: #000;
 
 }
 
